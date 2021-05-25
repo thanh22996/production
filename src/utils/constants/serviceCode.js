@@ -1,0 +1,72 @@
+export const SERVICE_CODE_GROUP_BY_TRANSACTION = {
+  bill: [
+    "BILL", //ok
+    "ISEC", //ok
+    "MOBILE_CARD", //ok
+    "MOBILE_TOPUP", //ok
+  ],
+
+  // social
+  social_new: [
+    "SOCIAL_LINK",
+    "SOCIAL_DONATE_MONEY_LINK",
+    "SOCIAL_DONATE_MONEY",
+    "SOCIAL_REQUEST_MONEY_LINK",
+    // "SOCIAL_SEND_MONEY_LINK",
+    // "SOCIAL_SEND_MONEY",
+    "SOCIAL_PAYME_RECEIVE_MONEY",
+    "SOCIAL_NAPAS_RECEIVE_MONEY",
+    // "SOCIAL_SEND_MONEY_LINK_RECIPIANT",
+  ],
+  social_old: [
+    "SOCIAL_PAYMENT_REQUEST_MONEY_LINK",
+    "SOCIAL_PAYMENT_RECEIVE_REQUEST_MONEY_LINK",
+    // "SOCIAL_PAYMENT_SEND_MONEY_LINK",
+    "SOCIAL_PAYMENT_DONATE_MONEY_LINK",
+    "SOCIAL_PAYMENT_PAYME_RECEIVE_MONEY",
+    "SOCIAL_PAYMENT_NAPAS_RECEIVE_MONEY",
+    // "SOCIAL_PAYMENT_SEND_MONEY",
+    "SOCIAL_PAYMENT_DONATE_MONEY",
+  ],
+
+  refund: ["REFUND_MONEY", "CASHBACK", "CANCEL_ISEC"],
+  system: [
+    // "ADD_MONEY", // Nạp tiền
+    "MINUS_MONEY",
+  ],
+  deposit: [
+    "DEPOSIT",
+    "DEPOSIT_PVCBANK",
+    "DEPOSIT_BANK_MANUAL",
+    "ADD_MONEY",
+    "ISEC_REDEEM",
+    "SOCIAL_PAYMENT_REQUEST_MONEY_LINK",
+  ],
+  withdraw: [
+    "WITHDRAW_BANK_GATEWAY",
+    "WITHDRAW_BANK_MANUAL",
+    "WITHDRAW_BANK_LINKED_PVCBANK",
+    "WITHDRAW_BANK_LINKED_GATEWAY",
+  ],
+  paymen_send: [
+    "PAYME_SEND_MONEY",
+    "PAYME_RECEIVE_MONEY",
+    // "TRANSFER_PAYME",
+    "SOCIAL_SEND_MONEY_LINK",
+    "SOCIAL_SEND_MONEY",
+    "SOCIAL_SEND_MONEY_LINK_RECIPIANT",
+    "SOCIAL_PAYMENT_SEND_MONEY_LINK",
+    "SOCIAL_PAYMENT_SEND_MONEY",
+  ],
+
+  transfer: ["TRANSFER_PAYME"],
+
+  notification: [
+    "ISEC_BULK", // ?????????
+    "ISEC_SCRATCH", // ??????????
+    "ISEC_SEND", // ????????
+    "ISEC_SAVE", //?????????
+    "ISEC_RECEIVED", //???????
+    "ISEC_DONATED", //?????????
+  ],
+};

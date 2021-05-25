@@ -1,0 +1,14 @@
+/* ACCOUNTS */
+export const GET_ACCOUNT_INFO_SUCCESS = 30030
+export const REQUEST_SUCCESS = 1000
+export const REQUEST_FAIL = 1001
+export const AUTHORIZE_SUCCESS = 20010
+export const AUTHORIZE_NEXT_SUCCESS = 20014
+export const VERIFY_GOOGLE_AUTHEN_SUCCESS = 40030
+
+export const LOGOUT_SUCCESS = 20020
+export const POST_REFRESH_TOKEN_SUCCESS = 1000
+
+
+/* Error 401 */
+export const VALID_ACCESS_TOKEN = 401
