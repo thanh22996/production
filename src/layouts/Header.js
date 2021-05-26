@@ -433,7 +433,7 @@ function Header(props) {
                     </li>
                   </ul>
                 </li>
-                <li className="has-submenu">
+                <li className="has-submenu last-elements">
                   <a href="#">
                     <i className="ion ion-md-wifi" /> Authentication{" "}
                     <i className="mdi mdi-chevron-down mdi-drop" />
@@ -530,12 +530,12 @@ function Header(props) {
                   <h4 className="page-title">Products</h4>
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         <i className="mdi mdi-home-outline" />
                       </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="javascript:void(0);">Ecommerce</a>
+                      <a href="#">Ecommerce</a>
                     </li>
                     <li className="breadcrumb-item active">Products</li>
                   </ol>

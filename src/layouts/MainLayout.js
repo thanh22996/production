@@ -6,9 +6,7 @@ function MainLayout(props) {
   return (
     <>
       <Header {...props} />
-      <div id="content" className="row">
-        {props.children}
-      </div>
+      <div id="content">{props.children}</div>
     </>
   );
 }

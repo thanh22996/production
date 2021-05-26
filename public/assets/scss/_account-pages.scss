@@ -1,9 +1,9 @@
-
-
 /* ==============
   Account Pages
 ===================*/
-
+.bg-login {
+  min-height: 100vh;
+}
 .home-btn {
   position: absolute;
   top: 15px;
@@ -11,30 +11,27 @@
   z-index: 9;
 }
 
-
 .account-page-full-height {
   height: 100vh;
-  .container-fluid{
+  .container-fluid {
     width: 100%;
   }
 }
 
-
-@media (max-width: 1199px){
+@media (max-width: 1199px) {
   .account-page-full-height {
     height: auto;
   }
-  .account-process{
-    &:before{
-      display: none
+  .account-process {
+    &:before {
+      display: none;
     }
   }
 }
 
-
-.account-process{
+.account-process {
   position: relative;
-  &:before{
+  &:before {
     content: "";
     position: absolute;
     top: 50px;
@@ -45,9 +42,12 @@
   }
 }
 
-
-.bg-pattern{
+.bg-pattern {
   background-image: url("../images/bg-pattern.png");
   background-size: cover;
   background-position: bottom;
+}
+
+.account-pages {
+  padding-top: 20vh;
 }

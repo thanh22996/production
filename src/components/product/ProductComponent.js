@@ -18,7 +18,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -28,7 +28,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -38,7 +38,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -51,9 +51,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       Gray belt watch
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -65,7 +65,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$72</del>
-                    </span>{" "}
+                    </span>
                     <b>$64</b>
                   </h5>
                   <span className="badge badge-soft-primary">24 % Off</span>
@@ -87,7 +87,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -97,7 +97,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -107,7 +107,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -120,9 +120,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       Riverston Glass Chair
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -134,7 +134,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$70</del>
-                    </span>{" "}
+                    </span>
                     <b>$62</b>
                   </h5>
                   <span className="badge badge-soft-danger">26 % Off</span>
@@ -156,7 +156,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -166,7 +166,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -176,7 +176,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -189,9 +189,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       Trex Outdoor Furniture Cape
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -203,7 +203,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$78</del>
-                    </span>{" "}
+                    </span>
                     <b>$68</b>
                   </h5>
                   <span className="badge badge-soft-warning">30 % Off</span>
@@ -225,7 +225,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -235,7 +235,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -245,7 +245,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -258,9 +258,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       3 color belt watch
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -272,7 +272,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$84</del>
-                    </span>{" "}
+                    </span>
                     <b>$72</b>
                   </h5>
                   <span className="badge badge-soft-success">28 % Off</span>
@@ -294,7 +294,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -304,7 +304,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -314,7 +314,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -327,9 +327,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       Classic Company watch
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -341,7 +341,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$70</del>
-                    </span>{" "}
+                    </span>
                     <b>$68</b>
                   </h5>
                   <span className="badge badge-soft-success">30 % Off</span>
@@ -363,7 +363,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -373,7 +373,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -383,7 +383,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -396,9 +396,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       Shine Company Chair
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -410,7 +410,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$84</del>
-                    </span>{" "}
+                    </span>
                     <b>$68</b>
                   </h5>
                   <span className="badge badge-soft-warning">32 % Off</span>
@@ -432,7 +432,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -442,7 +442,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -452,7 +452,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -465,9 +465,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       Trex Outdoor Furniture Cape
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -479,7 +479,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$74</del>
-                    </span>{" "}
+                    </span>
                     <b>$66</b>
                   </h5>
                   <span className="badge badge-soft-danger">34 % Off</span>
@@ -501,7 +501,7 @@ function ProductComponent(props) {
                     <ul className="list-inline product-links social-links mb-0">
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Like"
@@ -511,7 +511,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Wishlist"
@@ -521,7 +521,7 @@ function ProductComponent(props) {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="/"
+                          href="#none"
                           data-toggle="tooltip"
                           data-placement="top"
                           title="Add to Cart"
@@ -534,9 +534,9 @@ function ProductComponent(props) {
                 </div>
                 <div className="detail mt-3">
                   <h4 className="font-16">
-                    <a href className="text-dark">
+                    <a href="#none" className="text-dark">
                       black color lamp
-                    </a>{" "}
+                    </a>
                   </h4>
                   <p className="text-muted">
                     <i className="mdi mdi-star text-warning" />
@@ -548,7 +548,7 @@ function ProductComponent(props) {
                   <h5 className="my-0 font-16 float-right">
                     <span className="text-muted mr-2">
                       <del>$72</del>
-                    </span>{" "}
+                    </span>
                     <b>$64</b>
                   </h5>
                   <span className="badge badge-soft-primary">26 % Off</span>

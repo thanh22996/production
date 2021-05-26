@@ -18,7 +18,7 @@ function App({ Component, pageProps }) {
   return (
     <div className="root-next">
       <Head>
-        <title>PayME Wallet</title>
+        <title>Custom template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="shortcut icon"
@@ -33,8 +33,6 @@ function App({ Component, pageProps }) {
           rel="stylesheet"
           type="text/css"
         />
-        {/* <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" /> */}
-        {/* <link href="/assets/css/style.css" rel="stylesheet" type="text/css" /> */}
 
         <script
           src="https://www.google.com/recaptcha/api.js"
@@ -48,7 +46,12 @@ function App({ Component, pageProps }) {
       <script src="/assets/js/bootstrap.bundle.min.js"></script>
       <script src="/assets/js/jquery.slimscroll.js"></script>
       <script src="/assets/js/waves.min.js"></script>
-      <script src="assets/js/app.js"></script>
+      <script src="/assets/js/app.js"></script>
+      <script src="/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+      <script src="/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+      <script src="/assets/plugins/datatables/dataTables.responsive.min.js"></script>
+      <script src="/assets/plugins/datatables/responsive.bootstrap4.min.js"></script>
+      <script src="/assets/pages/ecommerce.js"></script>
     </div>
   );
 }
