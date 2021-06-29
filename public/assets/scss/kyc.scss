@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #f2f6f7;
+  padding: 0 15px;
+}
+
+.title-kyc,
+.btn-kyc {
+  text-align: center;
+}
+
+.step-by-step {
+  display: flex;
+}
+
+.step-number {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  margin-right: 8px;
+  background-color: #0daa27;
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}

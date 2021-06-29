@@ -5,7 +5,7 @@ function MainLayout(props) {
   const { isMenu = true } = props;
   return (
     <>
-      <Header {...props} />
+      {/* <Header {...props} /> */}
       <div id="content">{props.children}</div>
     </>
   );

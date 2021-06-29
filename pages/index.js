@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 import useNextPage from "utils/helpers/hooks/useNextPage";
 import Main from "components/Main";
+import EKYC from "components/eKYC/eKYC.js";
 
 function Index() {
   const router = useRouter();
@@ -23,7 +24,9 @@ function Index() {
 
   return (
     <>
-      <Main isMenu={pageShow.isMenu} setDefaultPage={setDefaultPage}></Main>
+      <Main isMenu={pageShow.isMenu} setDefaultPage={setDefaultPage}>
+        <EKYC />
+      </Main>
     </>
   );
 }
